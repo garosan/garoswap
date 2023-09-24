@@ -1,4 +1,4 @@
-# GaroSwap
+# ThunderSwap
 
 This is a DEX interface for the EthNY 2023 hackathon.
 

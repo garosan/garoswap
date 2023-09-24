@@ -16,7 +16,12 @@ function App() {
   return (
     <div
       className="App"
-      style={{backgroundImage: `url(${background})`, backgroundSize: 'cover'}}
+      style={{
+        backgroundImage: `url(${background})`,
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center center',
+      }}
     >
       <Header connect={connect} isConnected={isConnected} address={address} />
       <div className="mainWindow">
